@@ -1,0 +1,9 @@
+:host {
+  $blue: #000f7b;
+
+  --color-blue-base: #{$blue};
+  --color-blue-80: #{rgba($blue, 80%)};
+  --color-blue-60: #{rgba($blue, 60%)};
+  --color-blue-40: #{rgba($blue, 40%)};
+  --color-blue-20: #{rgba($blue, 20%)};
+}

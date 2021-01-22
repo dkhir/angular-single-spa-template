@@ -1,0 +1,10 @@
+{
+  "global": {
+    "nav": {
+      "title": "Nav"
+    },
+    "language": {
+      "title": "Text example on: {{ language }}"
+    }
+  }
+}

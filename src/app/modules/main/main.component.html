@@ -1,0 +1,33 @@
+<div>
+  <div class="header-actions">
+    <h3>Header:</h3>
+    <button (click)="headerToggle(false)">Show</button>
+    <button (click)="headerToggle(true)">Hide</button>
+    <button (click)="headerToggle()">Toggle</button>
+  </div>
+
+  <div>
+    <h4>Select Lang: {{currentLang}}</h4>
+    <select (change)="handleLangSelect($event.target.value)">
+      <option *ngFor="let lang of languages" [value]="lang">{{lang}}</option>
+    </select>
+  </div>
+
+  <img [src]="yoshiUrl" />
+
+  <h2 class="title">Angular Single SPA starter</h2>
+  <div class="icon-holder">
+    <span class="icon icon-refresh"></span>
+    <hr />
+    <app-svg-icon [iconHref]="'#refresh'"></app-svg-icon>
+  </div>
+  <div class="palette">
+    <div class="item-wrapper">
+      <div class="item item-blue-base"></div>
+      <div class="item item-blue-80"></div>
+      <div class="item item-blue-60"></div>
+      <div class="item item-blue-40"></div>
+      <div class="item item-blue-20"></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+$status-colors: (
+  item-blue-base: var(--color-blue-base),
+  item-blue-80: var(--color-blue-80),
+  item-blue-60: var(--color-blue-60),
+  item-blue-40: var(--color-blue-40),
+  item-blue-20: var(--color-blue-20),
+);
+
+.title {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-actions {
+  h3 {
+    display: inline-block;
+  }
+
+  h3,    
+  button:not(:last-of-type) {
+    margin-right: 15px;
+  }
+}
+
+.palette {
+  background-color: var(--color-red-base);
+
+  .item-wrapper {
+    display: flex;
+    width: 600px;
+    height: 300px;
+
+    .item {
+      width: 15%;
+
+      @each $name, $color in $status-colors {
+        &.#{$name} {
+          background-color: $color;
+        }
+      }
+
+      &.item-blue-base {
+        width: 40%;
+        background-color: var(--color-blue-base);
+      }
+    }
+  }
+}

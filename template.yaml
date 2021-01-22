@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: angular-single-spa-template
+  title: Angular SingleSpa Template Custom
+  description: Create a microfrontend app with angular and single spa
+  tags:
+    - recommended
+    - angular
+    - SingleSpa
+spec:
+  owner: web@example.com
+  templater: cookiecutter
+  type: website
+  path: '.'
+  schema:
+    required:
+      - component_id
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Help others understand what this website is for.
