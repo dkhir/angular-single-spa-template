@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { SvgIconModule } from '@share/components/svg-icon';
+import { SvgIconModule } from '../../common/share/components/svg-icon';
 
 import { MainComponent } from './main.component';
 import { MainRoutingModule } from './main-routing.module';

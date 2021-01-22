@@ -3,9 +3,9 @@ import {
   APP_INITIALIZER, CUSTOM_ELEMENTS_SCHEMA, Injector, NgModule,
 } from '@angular/core';
 
-import { LocalizationModule, translationPropsFactory } from '@core/services/localization';
+import { LocalizationModule, translationPropsFactory } from './common/core/services/localization';
 import { SingleSpaProps, singleSpaPropsStream, SingleSpaPropsToken } from '@single-spa-local';
-import { LocalizationConfigurationToken } from '@core/tokens';
+import { LocalizationConfigurationToken } from './common/core/tokens';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

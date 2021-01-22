@@ -3,7 +3,7 @@ import {
 } from '@angular/core';
 
 import { assetUrl, SingleSpaProps, SingleSpaPropsToken } from '@single-spa-local';
-import { LocalizationService } from '@core/services/localization/localization.service';
+import { LocalizationService } from '../../common/core/services/localization/localization.service';
 
 import { ToggleHeaderBus } from '@galileo/common-typings';
 

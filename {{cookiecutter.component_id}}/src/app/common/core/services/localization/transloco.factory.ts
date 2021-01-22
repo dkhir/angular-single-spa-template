@@ -2,7 +2,7 @@ import { InjectFlags, Injector } from '@angular/core';
 import { translocoConfig } from '@ngneat/transloco';
 import { TranslocoConfig } from '@ngneat/transloco/lib/transloco.config';
 
-import { LocalizationConfiguration, LocalizationConfigurationToken } from '@core/tokens';
+import { LocalizationConfiguration, LocalizationConfigurationToken } from '../../tokens';
 import { environment } from '@environment';
 
 export function TranslocoFactory(injector: Injector): TranslocoConfig {

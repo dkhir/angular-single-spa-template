@@ -2,7 +2,7 @@ import {
   ChangeDetectionStrategy, Component, ElementRef, OnInit, Renderer2,
 } from '@angular/core';
 
-import { SvgService } from '@core/services/svg';
+import { SvgService } from './common/core/services/svg';
 
 @Component({
   selector: 'app-root-starter',

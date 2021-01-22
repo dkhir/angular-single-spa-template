@@ -5,10 +5,10 @@
     "types": []
   },
   "include": [
-    "src/**/*.ts"
+    "{{cookiecutter.component_id}}/src/**/*.ts"
   ],
   "exclude": [
     "src/test.ts",
-    "src/**/*.spec.ts"
+    "{{cookiecutter.component_id}}/src/**/*.spec.ts"
   ]
 }

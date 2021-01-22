@@ -9,10 +9,10 @@
   },
   "files": [
     "src/test.ts",
-    "src/polyfills.ts"
+    "{{cookiecutter.component_id}}/src/polyfills.ts"
   ],
   "include": [
-    "src/**/*.spec.ts",
-    "src/**/*.d.ts"
+    "{{cookiecutter.component_id}}/src/**/*.spec.ts",
+    "{{cookiecutter.component_id}}/src/**/*.d.ts"
   ]
 }

@@ -2,7 +2,7 @@ import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { environment } from '@environment';
-import { AppModeToken, AppModeType, LocalizationConfigurationToken } from '@core/tokens';
+import { AppModeToken, AppModeType, LocalizationConfigurationToken } from './app/common/core/tokens';
 
 import { AppModule } from './app/app.module';
 

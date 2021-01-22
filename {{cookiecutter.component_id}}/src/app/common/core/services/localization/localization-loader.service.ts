@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { HashMap, Translation, TranslocoLoader } from '@ngneat/transloco';
 import { Observable } from 'rxjs';
 
-import { DeployUrlToken } from '@core/tokens';
+import { DeployUrlToken } from '../../tokens';
 
 @Injectable()
 export class TranslocoHttpLoader implements TranslocoLoader {
