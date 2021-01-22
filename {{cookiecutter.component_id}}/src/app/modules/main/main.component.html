@@ -7,9 +7,9 @@
   </div>
 
   <div>
-    <h4>Select Lang: {{currentLang}}</h4>
+    <h4>Select Lang: currentLang</h4>
     <select (change)="handleLangSelect($event.target.value)">
-      <option *ngFor="let lang of languages" [value]="lang">{{lang}}</option>
+      <option *ngFor="let lang of languages" [value]="lang">lang</option>
     </select>
   </div>
 
