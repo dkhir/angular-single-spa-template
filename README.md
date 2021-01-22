@@ -1,0 +1,1 @@
+# angular-single-spa-template
